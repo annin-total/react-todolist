@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 100px; */
+  height: 100vh;
+  padding-bottom: 40px;
+  color: rgb(58, 58, 58);
+
+  background: rgb(24, 58, 136);
+  background: linear-gradient(
+    81deg,
+    rgba(24, 58, 136, 1) 0%,
+    rgba(30, 24, 131, 1) 46%,
+    rgba(54, 17, 133, 1) 100%
+  );
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  margin-bottom: 3px;
+  font-size: 30px;
+}
+
+ul {
+  margin: 0;
+}
+
+input {
+  /* border-radius: 8px; */
+  border: none;
+  padding: 6px 16px;
+  background-color: #e4e4e4;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  width: 180px;
+}
+
+button {
+  /* border-radius: 8px; */
+  border: none;
+  padding: 4px 16px;
+  margin: 0px 2px;
+  /* color: rgb(69, 69, 69); */
+  color: #676666;
+  background-color: #e4e4e4;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  transition: all 0.4s;
+}
+
+#add-button {
+  background-color: rgb(242, 99, 66);
+  color: #fff;
+  margin-left: 6px;
+}
+
+button:hover {
+  background-color: rgb(130, 206, 182);
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-area {
+  /* background-color: rgb(192, 225, 192); */
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 6px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.incomplete-area {
+  /* border: 2px solid #aacfd0; */
+  border-radius: 6px;
+  width: 400px;
+  padding: 8px;
+  margin: 8px;
+  min-height: 200px;
+  background-color: #fff;
+}
+
+.complete-area {
+  /* border: 2px solid #aacfd0; */
+  border-radius: 6px;
+  width: 400px;
+  padding: 8px;
+  margin: 8px;
+  min-height: 200px;
+  /* background-color: #c9dede; */
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+}
+
+.incomplete-area .list-row button:last-child {
+  margin-left: 5px;
+}
+
+.todo-item {
+  margin: 6px;
+}
